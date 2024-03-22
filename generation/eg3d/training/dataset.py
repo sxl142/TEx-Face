@@ -221,7 +221,7 @@ class ImageFolderDataset(Dataset):
         return image
 
     def _load_raw_labels(self):
-        fname = '/home/shenxiaolong.sxl/remote_t4/ffhq/final_crops/dataset.json'
+        fname = './dataset.json'
         # if fname not in self._all_fnames:
         #     return None
         with self._open_file(fname) as f:
