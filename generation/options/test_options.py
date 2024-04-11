@@ -11,7 +11,7 @@ class TestOptions:
 		self.parser.add_argument('--output_dir', type=str, default='./outputs', help='Path to experiment output directory')
 		self.parser.add_argument('--test_batch_size', default=6, type=int, help='Batch size for testing and inference')
 		self.parser.add_argument('--checkpoint_path', default='./checkpoints/model.pt', type=str, help='Path to model checkpoint')
-		self.parser.add_argument('--eg3d_checkpoint_path', default='./checkpoints/ffhqrebalanced512-128.pth', type=str, help='Path to model checkpoint')
+		self.parser.add_argument('--eg3d_checkpoint_path', default='../inversion/pretrained/ffhqrebalanced512-128.pth', type=str, help='Path to model checkpoint')
 		self.parser.add_argument('--device', default='cuda', type=str, help='Path to model checkpoint')
 		#
 		self.parser.add_argument('--captions', default='This woman has no bangs.', type=str, help='Path to model checkpoint')
