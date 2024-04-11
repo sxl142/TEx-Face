@@ -26,4 +26,5 @@ python scripts/test_celeba.py ./checkpoints.pt
 ```bash
 cd generation
 python scripts/infer.py 
+python scripts/gen_videos.py
 ```
