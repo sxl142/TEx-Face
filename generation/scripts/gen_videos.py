@@ -327,7 +327,7 @@ def generate_images(
     grid = (latent.shape[0] // 2, 2)
 
     latent = torch.FloatTensor(latent).cuda()
-    name = os.path.basename(latent_path)[:-5]
+    name = os.path.basename(latent_path)[:-3]
     output = os.path.join(outdir, f'{name}.mp4')
     print('generate ',output)
     gen_interp_video(G=G, latent = latent,mp4=output, bitrate='10M', grid_dims=grid, num_keyframes=num_keyframes,
