@@ -17,6 +17,9 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --e
 
 ### 3. Download [SCD](https://drive.google.com/file/d/10lhpORq2g_K7WVafxdRt0CVBiOQxoq90/view?usp=sharing) and put it into 'generation/checkpoints'.
 
+## Test Data
+### 1. Download [Test Data](https://drive.google.com/file/d/1bF1fIUOZjK4JRDQKn1qhvIMU_MWxpwa_/view?usp=drive_link)
+
 ## Test Inversion
 ```bash
 cd inversion
